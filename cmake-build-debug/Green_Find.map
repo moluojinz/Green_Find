@@ -9,7 +9,7 @@ d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m
 d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
                               CMakeFiles/Green_Find.elf.dir/User/servo.c.obj (__aeabi_ddiv)
 d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
-                              CMakeFiles/Green_Find.elf.dir/User/servo.c.obj (__aeabi_dcmple)
+                              CMakeFiles/Green_Find.elf.dir/User/servo.c.obj (__aeabi_dcmpge)
 d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunsdfsi.o)
                               CMakeFiles/Green_Find.elf.dir/User/servo.c.obj (__aeabi_d2uiz)
 d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
@@ -983,7 +983,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
  .text.Red_Servo
-                0x00000000      0x1c8 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
+                0x00000000      0x1dc CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
  .text.servo_control
                 0x00000000       0x64 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
  .text.servo_PID
@@ -2089,7 +2089,7 @@ LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x12840
+.debug_info     0x00000000    0x12888
  .debug_info    0x00000000      0x547 CMakeFiles/Green_Find.elf.dir/Core/Src/dma.c.obj
  .debug_info    0x00000547      0x2d6 CMakeFiles/Green_Find.elf.dir/Core/Src/gpio.c.obj
  .debug_info    0x0000081d      0x605 CMakeFiles/Green_Find.elf.dir/Core/Src/main.c.obj
@@ -2109,7 +2109,7 @@ LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_info    0x0000cd29     0x424e CMakeFiles/Green_Find.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_info    0x00010f77      0x785 CMakeFiles/Green_Find.elf.dir/User/openmv.c.obj
  .debug_info    0x000116fc      0x50c CMakeFiles/Green_Find.elf.dir/User/pid.c.obj
- .debug_info    0x00011c08      0xc38 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
+ .debug_info    0x00011c08      0xc80 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
 
 .debug_abbrev   0x00000000     0x24c7
  .debug_abbrev  0x00000000      0x126 CMakeFiles/Green_Find.elf.dir/Core/Src/dma.c.obj
@@ -2197,7 +2197,7 @@ LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_ranges  0x00000bc8       0x40 CMakeFiles/Green_Find.elf.dir/User/pid.c.obj
  .debug_ranges  0x00000c08       0x28 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
 
-.debug_line     0x00000000     0xffa2
+.debug_line     0x00000000     0xffae
  .debug_line    0x00000000      0x1b8 CMakeFiles/Green_Find.elf.dir/Core/Src/dma.c.obj
  .debug_line    0x000001b8      0x169 CMakeFiles/Green_Find.elf.dir/Core/Src/gpio.c.obj
  .debug_line    0x00000321      0x3d2 CMakeFiles/Green_Find.elf.dir/Core/Src/main.c.obj
@@ -2217,9 +2217,9 @@ LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_line    0x0000ada1     0x463e CMakeFiles/Green_Find.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_line    0x0000f3df      0x2d5 CMakeFiles/Green_Find.elf.dir/User/openmv.c.obj
  .debug_line    0x0000f6b4      0x4ff CMakeFiles/Green_Find.elf.dir/User/pid.c.obj
- .debug_line    0x0000fbb3      0x3ef CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
+ .debug_line    0x0000fbb3      0x3fb CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
 
-.debug_str      0x00000000     0x4282
+.debug_str      0x00000000     0x4273
  .debug_str     0x00000000      0x7ad CMakeFiles/Green_Find.elf.dir/Core/Src/dma.c.obj
                                 0x7fb (size before relaxing)
  .debug_str     0x000007ad       0x3a CMakeFiles/Green_Find.elf.dir/Core/Src/gpio.c.obj
@@ -2258,8 +2258,8 @@ LOAD d:/enviro~1/gcc-ar~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                                 0x6df (size before relaxing)
  .debug_str     0x00003e8b      0x291 CMakeFiles/Green_Find.elf.dir/User/pid.c.obj
                                 0x42d (size before relaxing)
- .debug_str     0x0000411c      0x166 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
-                                0x9d0 (size before relaxing)
+ .debug_str     0x0000411c      0x157 CMakeFiles/Green_Find.elf.dir/User/servo.c.obj
+                                0x9ce (size before relaxing)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/Green_Find.elf.dir/Core/Src/dma.c.obj

@@ -21,12 +21,12 @@ data servo_tar;     //存储目标值
  */
 #define dis_default 1000
 #define L_default   50
-#define ServoUpper_max  1500
-#define ServoUpper_min  1150
-#define ServoBase_max   1450
-#define ServoBase_min   1050
-float initial_x = 1230;
-float initial_y = 1300;
+float initial_x = 1350;
+float initial_y = 1100;
+#define ServoUpper_max  (initial_x+300)
+#define ServoUpper_min  (initial_x-300)
+#define ServoBase_max   (initial_y+300)
+#define ServoBase_min   (initial_y-300)
 double long_angle, tran_angle;    //纵向角度，横向角度
 
 void Red_Servo(float x, float y) {
